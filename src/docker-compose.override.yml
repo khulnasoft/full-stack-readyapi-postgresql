@@ -79,7 +79,7 @@ services:
         FRONTEND_ENV: dev
     labels:
       # - traefik.http.routers.${STACK_NAME?Variable not set}-frontend-http.rule=PathPrefix(`/`)
-      - traefik.http.routers.${STACK_NAME?Variable not set}-frontend-http.rule=Host(`old-frontend.localhost.tiangolo.com`)
+      - traefik.http.routers.${STACK_NAME?Variable not set}-frontend-http.rule=Host(`old-frontend.localhost.khulnasoft.com`)
 
 networks:
   traefik-public:
